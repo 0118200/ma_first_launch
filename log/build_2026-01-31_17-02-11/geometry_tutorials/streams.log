@@ -1,0 +1,20 @@
+[0.026s] Invoking command in '/home/eilero/launch_ws/build/geometry_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/launch_ws/build/geometry_tutorials -- -j16 -l16
+[0.357s] Invoked command in '/home/eilero/launch_ws/build/geometry_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/launch_ws/build/geometry_tutorials -- -j16 -l16
+[0.365s] Invoking command in '/home/eilero/launch_ws/build/geometry_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/eilero/launch_ws/build/geometry_tutorials
+[0.531s] -- Install configuration: ""
+[0.531s] -- Up-to-date: /home/eilero/launch_ws/install/geometry_tutorials/share/ament_index/resource_index/package_run_dependencies/geometry_tutorials
+[0.531s] -- Up-to-date: /home/eilero/launch_ws/install/geometry_tutorials/share/ament_index/resource_index/parent_prefix_path/geometry_tutorials
+[0.531s] -- Up-to-date: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/environment/ament_prefix_path.sh
+[0.531s] -- Up-to-date: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/environment/ament_prefix_path.dsv
+[0.531s] -- Up-to-date: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/environment/path.sh
+[0.531s] -- Up-to-date: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/environment/path.dsv
+[0.531s] -- Up-to-date: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/local_setup.bash
+[0.531s] -- Up-to-date: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/local_setup.sh
+[0.531s] -- Up-to-date: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/local_setup.zsh
+[0.531s] -- Up-to-date: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/local_setup.dsv
+[0.531s] -- Up-to-date: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/package.dsv
+[0.532s] -- Up-to-date: /home/eilero/launch_ws/install/geometry_tutorials/share/ament_index/resource_index/packages/geometry_tutorials
+[0.532s] -- Up-to-date: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/cmake/geometry_tutorialsConfig.cmake
+[0.532s] -- Up-to-date: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/cmake/geometry_tutorialsConfig-version.cmake
+[0.532s] -- Up-to-date: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/package.xml
+[0.541s] Invoked command in '/home/eilero/launch_ws/build/geometry_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/eilero/launch_ws/build/geometry_tutorials

@@ -1,0 +1,21 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/eilero/launch_ws/build/geometry_tutorials
+-- Install configuration: ""
+-- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/ament_index/resource_index/package_run_dependencies/geometry_tutorials
+-- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/ament_index/resource_index/parent_prefix_path/geometry_tutorials
+-- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/environment/ament_prefix_path.sh
+-- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/environment/ament_prefix_path.dsv
+-- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/environment/path.sh
+-- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/environment/path.dsv
+-- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/local_setup.bash
+-- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/local_setup.sh
+-- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/local_setup.zsh
+-- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/local_setup.dsv
+-- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/package.dsv
+-- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/ament_index/resource_index/packages/geometry_tutorials
+-- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/cmake/geometry_tutorialsConfig.cmake
+-- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/cmake/geometry_tutorialsConfig-version.cmake
+-- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/package.xml

@@ -1,0 +1,365 @@
+[0.000000] (-) TimerEvent: {}
+[0.000288] (geometry_tutorials) JobQueued: {'identifier': 'geometry_tutorials', 'dependencies': OrderedDict()}
+[0.000362] (launch_tutorial) JobQueued: {'identifier': 'launch_tutorial', 'dependencies': OrderedDict()}
+[0.000392] (py_launch_example) JobQueued: {'identifier': 'py_launch_example', 'dependencies': OrderedDict()}
+[0.000415] (turtle_tf2_cpp) JobQueued: {'identifier': 'turtle_tf2_cpp', 'dependencies': OrderedDict()}
+[0.000436] (turtle_tf2_py) JobQueued: {'identifier': 'turtle_tf2_py', 'dependencies': OrderedDict()}
+[0.000455] (geometry_tutorials) JobStarted: {'identifier': 'geometry_tutorials'}
+[0.015471] (launch_tutorial) JobStarted: {'identifier': 'launch_tutorial'}
+[0.025978] (py_launch_example) JobStarted: {'identifier': 'py_launch_example'}
+[0.036170] (turtle_tf2_cpp) JobStarted: {'identifier': 'turtle_tf2_cpp'}
+[0.043876] (turtle_tf2_py) JobStarted: {'identifier': 'turtle_tf2_py'}
+[0.053147] (geometry_tutorials) JobProgress: {'identifier': 'geometry_tutorials', 'progress': 'cmake'}
+[0.054362] (geometry_tutorials) Command: {'cmd': ['/usr/bin/cmake', '/home/eilero/launch_ws/geometry_tutorials/geometry_tutorials', '-DCMAKE_INSTALL_PREFIX=/home/eilero/launch_ws/install/geometry_tutorials'], 'cwd': '/home/eilero/launch_ws/build/geometry_tutorials', 'env': OrderedDict({'HOSTNAME': 'advan', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/eilero/install/first_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home/eilero/launch_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/eilero/launch_ws/install:/home/eilero/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/eilero/launch_ws/install/turtle_tf2_py:/home/eilero/launch_ws/install/py_launch_example:/home/eilero/launch_ws/install/launch_tutorial:/home/eilero/install/first_interfaces:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/eilero/launch_ws/build/geometry_tutorials', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages:/home/eilero/launch_ws/install/py_launch_example/lib/python3.12/site-packages:/home/eilero/launch_ws/install/launch_tutorial/lib/python3.12/site-packages:/home/eilero/install/first_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/eilero/install/first_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/eilero/launch_ws/install/turtle_tf2_py:/home/eilero/launch_ws/install/py_launch_example:/home/eilero/launch_ws/install/launch_tutorial:/opt/ros/jazzy'}), 'shell': False}
+[0.099001] (-) TimerEvent: {}
+[0.199694] (-) TimerEvent: {}
+[0.300250] (-) TimerEvent: {}
+[0.400763] (-) TimerEvent: {}
+[0.501245] (-) TimerEvent: {}
+[0.601706] (-) TimerEvent: {}
+[0.702260] (-) TimerEvent: {}
+[0.722763] (turtle_tf2_cpp) JobProgress: {'identifier': 'turtle_tf2_cpp', 'progress': 'cmake'}
+[0.724030] (turtle_tf2_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/eilero/launch_ws/geometry_tutorials/turtle_tf2_cpp', '-DCMAKE_INSTALL_PREFIX=/home/eilero/launch_ws/install/turtle_tf2_cpp'], 'cwd': '/home/eilero/launch_ws/build/turtle_tf2_cpp', 'env': OrderedDict({'HOSTNAME': 'advan', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/eilero/install/first_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home/eilero/launch_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/eilero/launch_ws/install:/home/eilero/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/eilero/launch_ws/install/turtle_tf2_py:/home/eilero/launch_ws/install/py_launch_example:/home/eilero/launch_ws/install/launch_tutorial:/home/eilero/install/first_interfaces:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/eilero/launch_ws/build/turtle_tf2_cpp', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages:/home/eilero/launch_ws/install/py_launch_example/lib/python3.12/site-packages:/home/eilero/launch_ws/install/launch_tutorial/lib/python3.12/site-packages:/home/eilero/install/first_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/eilero/install/first_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/eilero/launch_ws/install/turtle_tf2_py:/home/eilero/launch_ws/install/py_launch_example:/home/eilero/launch_ws/install/launch_tutorial:/opt/ros/jazzy'}), 'shell': False}
+[0.727326] (geometry_tutorials) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.729502] (geometry_tutorials) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.756925] (geometry_tutorials) StdoutLine: {'line': b'-- Configuring done (0.7s)\n'}
+[0.765783] (geometry_tutorials) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.769107] (geometry_tutorials) StdoutLine: {'line': b'-- Build files have been written to: /home/eilero/launch_ws/build/geometry_tutorials\n'}
+[0.802435] (-) TimerEvent: {}
+[0.897724] (turtle_tf2_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.902534] (-) TimerEvent: {}
+[1.002899] (-) TimerEvent: {}
+[1.055564] (turtle_tf2_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.063633] (geometry_tutorials) CommandEnded: {'returncode': 0}
+[1.064296] (geometry_tutorials) JobProgress: {'identifier': 'geometry_tutorials', 'progress': 'build'}
+[1.065471] (geometry_tutorials) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/eilero/launch_ws/build/geometry_tutorials', '--', '-j16', '-l16'], 'cwd': '/home/eilero/launch_ws/build/geometry_tutorials', 'env': OrderedDict({'HOSTNAME': 'advan', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/eilero/install/first_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home/eilero/launch_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/eilero/launch_ws/install:/home/eilero/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/eilero/launch_ws/install/turtle_tf2_py:/home/eilero/launch_ws/install/py_launch_example:/home/eilero/launch_ws/install/launch_tutorial:/home/eilero/install/first_interfaces:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/eilero/launch_ws/build/geometry_tutorials', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages:/home/eilero/launch_ws/install/py_launch_example/lib/python3.12/site-packages:/home/eilero/launch_ws/install/launch_tutorial/lib/python3.12/site-packages:/home/eilero/install/first_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/eilero/install/first_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/eilero/launch_ws/install/turtle_tf2_py:/home/eilero/launch_ws/install/py_launch_example:/home/eilero/launch_ws/install/launch_tutorial:/opt/ros/jazzy'}), 'shell': False}
+[1.092144] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.103050] (-) TimerEvent: {}
+[1.147743] (geometry_tutorials) CommandEnded: {'returncode': 0}
+[1.148699] (geometry_tutorials) JobProgress: {'identifier': 'geometry_tutorials', 'progress': 'install'}
+[1.165536] (geometry_tutorials) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/eilero/launch_ws/build/geometry_tutorials'], 'cwd': '/home/eilero/launch_ws/build/geometry_tutorials', 'env': OrderedDict({'HOSTNAME': 'advan', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/eilero/install/first_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home/eilero/launch_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/eilero/launch_ws/install:/home/eilero/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/eilero/launch_ws/install/turtle_tf2_py:/home/eilero/launch_ws/install/py_launch_example:/home/eilero/launch_ws/install/launch_tutorial:/home/eilero/install/first_interfaces:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/eilero/launch_ws/build/geometry_tutorials', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages:/home/eilero/launch_ws/install/py_launch_example/lib/python3.12/site-packages:/home/eilero/launch_ws/install/launch_tutorial/lib/python3.12/site-packages:/home/eilero/install/first_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/eilero/install/first_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/eilero/launch_ws/install/turtle_tf2_py:/home/eilero/launch_ws/install/py_launch_example:/home/eilero/launch_ws/install/launch_tutorial:/opt/ros/jazzy'}), 'shell': False}
+[1.182449] (geometry_tutorials) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.182923] (geometry_tutorials) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/ament_index/resource_index/package_run_dependencies/geometry_tutorials\n'}
+[1.183247] (geometry_tutorials) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/ament_index/resource_index/parent_prefix_path/geometry_tutorials\n'}
+[1.183714] (geometry_tutorials) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/environment/ament_prefix_path.sh\n'}
+[1.184008] (geometry_tutorials) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/environment/ament_prefix_path.dsv\n'}
+[1.184321] (geometry_tutorials) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/environment/path.sh\n'}
+[1.184618] (geometry_tutorials) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/environment/path.dsv\n'}
+[1.184897] (geometry_tutorials) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/local_setup.bash\n'}
+[1.185178] (geometry_tutorials) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/local_setup.sh\n'}
+[1.185496] (geometry_tutorials) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/local_setup.zsh\n'}
+[1.185776] (geometry_tutorials) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/local_setup.dsv\n'}
+[1.186051] (geometry_tutorials) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/package.dsv\n'}
+[1.186440] (geometry_tutorials) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/ament_index/resource_index/packages/geometry_tutorials\n'}
+[1.186795] (geometry_tutorials) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/cmake/geometry_tutorialsConfig.cmake\n'}
+[1.187079] (geometry_tutorials) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/cmake/geometry_tutorialsConfig-version.cmake\n'}
+[1.187350] (geometry_tutorials) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/package.xml\n'}
+[1.191760] (geometry_tutorials) CommandEnded: {'returncode': 0}
+[1.203384] (-) TimerEvent: {}
+[1.215773] (geometry_tutorials) JobEnded: {'identifier': 'geometry_tutorials', 'rc': 0}
+[1.275620] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.289873] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.290691] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.291528] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.303524] (-) TimerEvent: {}
+[1.309860] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.403708] (-) TimerEvent: {}
+[1.504263] (-) TimerEvent: {}
+[1.506272] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.521753] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.522275] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.523383] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.530197] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.604429] (-) TimerEvent: {}
+[1.704968] (-) TimerEvent: {}
+[1.746097] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.805171] (-) TimerEvent: {}
+[1.846642] (py_launch_example) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_launch_example', 'build', '--build-base', '/home/eilero/launch_ws/build/py_launch_example/build', 'install', '--record', '/home/eilero/launch_ws/build/py_launch_example/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/eilero/launch_ws/src/py_launch_example', 'env': {'HOSTNAME': 'advan', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/eilero/install/first_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home/eilero/launch_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/eilero/launch_ws/install:/home/eilero/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/eilero/launch_ws/install/turtle_tf2_py:/home/eilero/launch_ws/install/py_launch_example:/home/eilero/launch_ws/install/launch_tutorial:/home/eilero/install/first_interfaces:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/eilero/launch_ws/build/py_launch_example', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/eilero/launch_ws/build/py_launch_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eilero/launch_ws/install/py_launch_example/lib/python3.12/site-packages:/home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages:/home/eilero/launch_ws/install/py_launch_example/lib/python3.12/site-packages:/home/eilero/launch_ws/install/launch_tutorial/lib/python3.12/site-packages:/home/eilero/install/first_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/eilero/install/first_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.877256] (turtle_tf2_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/turtle_tf2_py', 'build', '--build-base', '/home/eilero/launch_ws/build/turtle_tf2_py/build', 'install', '--record', '/home/eilero/launch_ws/build/turtle_tf2_py/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/eilero/launch_ws/geometry_tutorials/turtle_tf2_py', 'env': {'HOSTNAME': 'advan', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/eilero/install/first_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home/eilero/launch_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/eilero/launch_ws/install:/home/eilero/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/eilero/launch_ws/install/turtle_tf2_py:/home/eilero/launch_ws/install/py_launch_example:/home/eilero/launch_ws/install/launch_tutorial:/home/eilero/install/first_interfaces:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/eilero/launch_ws/build/turtle_tf2_py', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/eilero/launch_ws/build/turtle_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages:/home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages:/home/eilero/launch_ws/install/py_launch_example/lib/python3.12/site-packages:/home/eilero/launch_ws/install/launch_tutorial/lib/python3.12/site-packages:/home/eilero/install/first_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/eilero/install/first_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.897191] (launch_tutorial) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/launch_tutorial', 'build', '--build-base', '/home/eilero/launch_ws/build/launch_tutorial/build', 'install', '--record', '/home/eilero/launch_ws/build/launch_tutorial/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/eilero/launch_ws/src/launch_tutorial', 'env': {'HOSTNAME': 'advan', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/eilero/install/first_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home/eilero/launch_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/eilero/launch_ws/install:/home/eilero/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/eilero/launch_ws/install/turtle_tf2_py:/home/eilero/launch_ws/install/py_launch_example:/home/eilero/launch_ws/install/launch_tutorial:/home/eilero/install/first_interfaces:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/eilero/launch_ws/build/launch_tutorial', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/eilero/launch_ws/build/launch_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eilero/launch_ws/install/launch_tutorial/lib/python3.12/site-packages:/home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages:/home/eilero/launch_ws/install/py_launch_example/lib/python3.12/site-packages:/home/eilero/launch_ws/install/launch_tutorial/lib/python3.12/site-packages:/home/eilero/install/first_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/eilero/install/first_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.905271] (-) TimerEvent: {}
+[1.957415] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[2.005430] (-) TimerEvent: {}
+[2.056113] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.084059] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[2.105571] (-) TimerEvent: {}
+[2.120206] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.158068] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.195534] (py_launch_example) StdoutLine: {'line': b'running egg_info\n'}
+[2.205695] (-) TimerEvent: {}
+[2.210047] (py_launch_example) StdoutLine: {'line': b'writing ../../build/py_launch_example/py_launch_example.egg-info/PKG-INFO\n'}
+[2.210560] (py_launch_example) StdoutLine: {'line': b'writing dependency_links to ../../build/py_launch_example/py_launch_example.egg-info/dependency_links.txt\n'}
+[2.210928] (py_launch_example) StdoutLine: {'line': b'writing requirements to ../../build/py_launch_example/py_launch_example.egg-info/requires.txt\n'}
+[2.211145] (py_launch_example) StdoutLine: {'line': b'writing top-level names to ../../build/py_launch_example/py_launch_example.egg-info/top_level.txt\n'}
+[2.215859] (turtle_tf2_py) StdoutLine: {'line': b'running egg_info\n'}
+[2.225675] (launch_tutorial) StdoutLine: {'line': b'running egg_info\n'}
+[2.227670] (turtle_tf2_py) StdoutLine: {'line': b'writing ../../build/turtle_tf2_py/turtle_tf2_py.egg-info/PKG-INFO\n'}
+[2.228011] (turtle_tf2_py) StdoutLine: {'line': b'writing dependency_links to ../../build/turtle_tf2_py/turtle_tf2_py.egg-info/dependency_links.txt\n'}
+[2.228368] (turtle_tf2_py) StdoutLine: {'line': b'writing entry points to ../../build/turtle_tf2_py/turtle_tf2_py.egg-info/entry_points.txt\n'}
+[2.228537] (turtle_tf2_py) StdoutLine: {'line': b'writing requirements to ../../build/turtle_tf2_py/turtle_tf2_py.egg-info/requires.txt\n'}
+[2.228691] (turtle_tf2_py) StdoutLine: {'line': b'writing top-level names to ../../build/turtle_tf2_py/turtle_tf2_py.egg-info/top_level.txt\n'}
+[2.230527] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Found message_filters: 4.11.9 (/opt/ros/jazzy/share/message_filters/cmake)\n'}
+[2.236663] (py_launch_example) StdoutLine: {'line': b"reading manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'\n"}
+[2.236926] (py_launch_example) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.237207] (launch_tutorial) StdoutLine: {'line': b'writing ../../build/launch_tutorial/launch_tutorial.egg-info/PKG-INFO\n'}
+[2.237634] (py_launch_example) StdoutLine: {'line': b"writing manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'\n"}
+[2.237840] (launch_tutorial) StdoutLine: {'line': b'writing dependency_links to ../../build/launch_tutorial/launch_tutorial.egg-info/dependency_links.txt\n'}
+[2.237965] (py_launch_example) StdoutLine: {'line': b'running build\n'}
+[2.238081] (launch_tutorial) StdoutLine: {'line': b'writing requirements to ../../build/launch_tutorial/launch_tutorial.egg-info/requires.txt\n'}
+[2.238174] (py_launch_example) StdoutLine: {'line': b'running build_py\n'}
+[2.238221] (launch_tutorial) StdoutLine: {'line': b'writing top-level names to ../../build/launch_tutorial/launch_tutorial.egg-info/top_level.txt\n'}
+[2.238268] (py_launch_example) StdoutLine: {'line': b'running install\n'}
+[2.242827] (py_launch_example) StdoutLine: {'line': b'running install_lib\n'}
+[2.250835] (turtle_tf2_py) StdoutLine: {'line': b"reading manifest file '../../build/turtle_tf2_py/turtle_tf2_py.egg-info/SOURCES.txt'\n"}
+[2.251641] (turtle_tf2_py) StdoutLine: {'line': b"writing manifest file '../../build/turtle_tf2_py/turtle_tf2_py.egg-info/SOURCES.txt'\n"}
+[2.251760] (turtle_tf2_py) StdoutLine: {'line': b'running build\n'}
+[2.251858] (turtle_tf2_py) StdoutLine: {'line': b'running build_py\n'}
+[2.251969] (turtle_tf2_py) StdoutLine: {'line': b'copying turtle_tf2_py/turtle_tf2_broadcaster.py -> /home/eilero/launch_ws/build/turtle_tf2_py/build/lib/turtle_tf2_py\n'}
+[2.252182] (turtle_tf2_py) StdoutLine: {'line': b'copying turtle_tf2_py/turtle_tf2_message_broadcaster.py -> /home/eilero/launch_ws/build/turtle_tf2_py/build/lib/turtle_tf2_py\n'}
+[2.252297] (turtle_tf2_py) StdoutLine: {'line': b'copying turtle_tf2_py/fixed_frame_tf2_broadcaster.py -> /home/eilero/launch_ws/build/turtle_tf2_py/build/lib/turtle_tf2_py\n'}
+[2.252411] (turtle_tf2_py) StdoutLine: {'line': b'copying turtle_tf2_py/__init__.py -> /home/eilero/launch_ws/build/turtle_tf2_py/build/lib/turtle_tf2_py\n'}
+[2.252564] (turtle_tf2_py) StdoutLine: {'line': b'copying turtle_tf2_py/turtle_tf2_listener.py -> /home/eilero/launch_ws/build/turtle_tf2_py/build/lib/turtle_tf2_py\n'}
+[2.252705] (turtle_tf2_py) StdoutLine: {'line': b'copying turtle_tf2_py/dynamic_frame_tf2_broadcaster.py -> /home/eilero/launch_ws/build/turtle_tf2_py/build/lib/turtle_tf2_py\n'}
+[2.252833] (turtle_tf2_py) StdoutLine: {'line': b'copying turtle_tf2_py/static_turtle_tf2_broadcaster.py -> /home/eilero/launch_ws/build/turtle_tf2_py/build/lib/turtle_tf2_py\n'}
+[2.253079] (turtle_tf2_py) StdoutLine: {'line': b'running install\n'}
+[2.254641] (py_launch_example) StdoutLine: {'line': b'running install_data\n'}
+[2.254807] (py_launch_example) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.258306] (turtle_tf2_py) StdoutLine: {'line': b'running install_lib\n'}
+[2.260223] (launch_tutorial) StdoutLine: {'line': b"reading manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'\n"}
+[2.260542] (launch_tutorial) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.261169] (launch_tutorial) StdoutLine: {'line': b"writing manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'\n"}
+[2.261447] (launch_tutorial) StdoutLine: {'line': b'running build\n'}
+[2.261598] (launch_tutorial) StdoutLine: {'line': b'running build_py\n'}
+[2.261849] (launch_tutorial) StdoutLine: {'line': b'running install\n'}
+[2.266774] (launch_tutorial) StdoutLine: {'line': b'running install_lib\n'}
+[2.267860] (py_launch_example) StdoutLine: {'line': b"removing '/home/eilero/launch_ws/install/py_launch_example/lib/python3.12/site-packages/py_launch_example-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[2.268133] (py_launch_example) StdoutLine: {'line': b'Copying ../../build/py_launch_example/py_launch_example.egg-info to /home/eilero/launch_ws/install/py_launch_example/lib/python3.12/site-packages/py_launch_example-0.0.0-py3.12.egg-info\n'}
+[2.268948] (py_launch_example) StdoutLine: {'line': b'running install_scripts\n'}
+[2.269636] (turtle_tf2_py) StdoutLine: {'line': b'copying /home/eilero/launch_ws/build/turtle_tf2_py/build/lib/turtle_tf2_py/turtle_tf2_broadcaster.py -> /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py\n'}
+[2.269820] (turtle_tf2_py) StdoutLine: {'line': b'copying /home/eilero/launch_ws/build/turtle_tf2_py/build/lib/turtle_tf2_py/turtle_tf2_message_broadcaster.py -> /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py\n'}
+[2.269927] (turtle_tf2_py) StdoutLine: {'line': b'copying /home/eilero/launch_ws/build/turtle_tf2_py/build/lib/turtle_tf2_py/fixed_frame_tf2_broadcaster.py -> /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py\n'}
+[2.270048] (turtle_tf2_py) StdoutLine: {'line': b'copying /home/eilero/launch_ws/build/turtle_tf2_py/build/lib/turtle_tf2_py/__init__.py -> /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py\n'}
+[2.270193] (turtle_tf2_py) StdoutLine: {'line': b'copying /home/eilero/launch_ws/build/turtle_tf2_py/build/lib/turtle_tf2_py/turtle_tf2_listener.py -> /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py\n'}
+[2.270315] (turtle_tf2_py) StdoutLine: {'line': b'copying /home/eilero/launch_ws/build/turtle_tf2_py/build/lib/turtle_tf2_py/dynamic_frame_tf2_broadcaster.py -> /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py\n'}
+[2.270433] (turtle_tf2_py) StdoutLine: {'line': b'copying /home/eilero/launch_ws/build/turtle_tf2_py/build/lib/turtle_tf2_py/static_turtle_tf2_broadcaster.py -> /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py\n'}
+[2.271068] (turtle_tf2_py) StdoutLine: {'line': b'byte-compiling /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py/turtle_tf2_broadcaster.py to turtle_tf2_broadcaster.cpython-312.pyc\n'}
+[2.271929] (turtle_tf2_py) StdoutLine: {'line': b'byte-compiling /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py/turtle_tf2_message_broadcaster.py to turtle_tf2_message_broadcaster.cpython-312.pyc\n'}
+[2.272567] (turtle_tf2_py) StdoutLine: {'line': b'byte-compiling /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py/fixed_frame_tf2_broadcaster.py to fixed_frame_tf2_broadcaster.cpython-312.pyc\n'}
+[2.273009] (turtle_tf2_py) StdoutLine: {'line': b'byte-compiling /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py/__init__.py to __init__.cpython-312.pyc\n'}
+[2.273269] (turtle_tf2_py) StdoutLine: {'line': b'byte-compiling /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py/turtle_tf2_listener.py to turtle_tf2_listener.cpython-312.pyc\n'}
+[2.273926] (turtle_tf2_py) StdoutLine: {'line': b'byte-compiling /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py/dynamic_frame_tf2_broadcaster.py to dynamic_frame_tf2_broadcaster.cpython-312.pyc\n'}
+[2.274307] (turtle_tf2_py) StdoutLine: {'line': b'byte-compiling /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py/static_turtle_tf2_broadcaster.py to static_turtle_tf2_broadcaster.cpython-312.pyc\n'}
+[2.274867] (turtle_tf2_py) StdoutLine: {'line': b'running install_data\n'}
+[2.274979] (turtle_tf2_py) StdoutLine: {'line': b'copying resource/turtle_tf2_py -> /home/eilero/launch_ws/install/turtle_tf2_py/share/ament_index/resource_index/packages\n'}
+[2.275112] (turtle_tf2_py) StdoutLine: {'line': b'copying package.xml -> /home/eilero/launch_ws/install/turtle_tf2_py/share/turtle_tf2_py\n'}
+[2.275251] (turtle_tf2_py) StdoutLine: {'line': b'creating /home/eilero/launch_ws/install/turtle_tf2_py/share/turtle_tf2_py/launch\n'}
+[2.275367] (turtle_tf2_py) StdoutLine: {'line': b'copying launch/turtle_tf2_sensor_message.launch.py -> /home/eilero/launch_ws/install/turtle_tf2_py/share/turtle_tf2_py/launch\n'}
+[2.275489] (turtle_tf2_py) StdoutLine: {'line': b'copying launch/turtle_tf2_dynamic_frame_demo.launch.py -> /home/eilero/launch_ws/install/turtle_tf2_py/share/turtle_tf2_py/launch\n'}
+[2.275599] (turtle_tf2_py) StdoutLine: {'line': b'copying launch/turtle_tf2_fixed_frame_demo.launch.py -> /home/eilero/launch_ws/install/turtle_tf2_py/share/turtle_tf2_py/launch\n'}
+[2.275709] (turtle_tf2_py) StdoutLine: {'line': b'copying launch/turtle_tf2_demo.launch.py -> /home/eilero/launch_ws/install/turtle_tf2_py/share/turtle_tf2_py/launch\n'}
+[2.275817] (turtle_tf2_py) StdoutLine: {'line': b'creating /home/eilero/launch_ws/install/turtle_tf2_py/share/turtle_tf2_py/rviz\n'}
+[2.275906] (turtle_tf2_py) StdoutLine: {'line': b'copying rviz/turtle_rviz.rviz -> /home/eilero/launch_ws/install/turtle_tf2_py/share/turtle_tf2_py/rviz\n'}
+[2.276010] (turtle_tf2_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.279262] (launch_tutorial) StdoutLine: {'line': b'running install_data\n'}
+[2.279837] (launch_tutorial) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.288924] (turtle_tf2_py) StdoutLine: {'line': b'Copying ../../build/turtle_tf2_py/turtle_tf2_py.egg-info to /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py-0.3.6-py3.12.egg-info\n'}
+[2.289880] (turtle_tf2_py) StdoutLine: {'line': b'running install_scripts\n'}
+[2.292455] (launch_tutorial) StdoutLine: {'line': b"removing '/home/eilero/launch_ws/install/launch_tutorial/lib/python3.12/site-packages/launch_tutorial-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[2.292756] (launch_tutorial) StdoutLine: {'line': b'Copying ../../build/launch_tutorial/launch_tutorial.egg-info to /home/eilero/launch_ws/install/launch_tutorial/lib/python3.12/site-packages/launch_tutorial-0.0.0-py3.12.egg-info\n'}
+[2.293585] (launch_tutorial) StdoutLine: {'line': b'running install_scripts\n'}
+[2.305801] (-) TimerEvent: {}
+[2.311076] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.315334] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.364929] (py_launch_example) StdoutLine: {'line': b"writing list of installed files to '/home/eilero/launch_ws/build/py_launch_example/install.log'\n"}
+[2.380180] (turtle_tf2_py) StdoutLine: {'line': b'Installing dynamic_frame_tf2_broadcaster script to /home/eilero/launch_ws/install/turtle_tf2_py/lib/turtle_tf2_py\n'}
+[2.380515] (turtle_tf2_py) StdoutLine: {'line': b'Installing fixed_frame_tf2_broadcaster script to /home/eilero/launch_ws/install/turtle_tf2_py/lib/turtle_tf2_py\n'}
+[2.380689] (turtle_tf2_py) StdoutLine: {'line': b'Installing static_turtle_tf2_broadcaster script to /home/eilero/launch_ws/install/turtle_tf2_py/lib/turtle_tf2_py\n'}
+[2.380787] (turtle_tf2_py) StdoutLine: {'line': b'Installing turtle_tf2_broadcaster script to /home/eilero/launch_ws/install/turtle_tf2_py/lib/turtle_tf2_py\n'}
+[2.380979] (turtle_tf2_py) StdoutLine: {'line': b'Installing turtle_tf2_listener script to /home/eilero/launch_ws/install/turtle_tf2_py/lib/turtle_tf2_py\n'}
+[2.381041] (launch_tutorial) StdoutLine: {'line': b"writing list of installed files to '/home/eilero/launch_ws/build/launch_tutorial/install.log'\n"}
+[2.381108] (turtle_tf2_py) StdoutLine: {'line': b'Installing turtle_tf2_message_broadcaster script to /home/eilero/launch_ws/install/turtle_tf2_py/lib/turtle_tf2_py\n'}
+[2.381182] (turtle_tf2_py) StdoutLine: {'line': b"writing list of installed files to '/home/eilero/launch_ws/build/turtle_tf2_py/install.log'\n"}
+[2.405979] (-) TimerEvent: {}
+[2.426924] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[2.437731] (py_launch_example) CommandEnded: {'returncode': 0}
+[2.442944] (py_launch_example) JobEnded: {'identifier': 'py_launch_example', 'rc': 0}
+[2.444033] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[2.444500] (turtle_tf2_py) CommandEnded: {'returncode': 0}
+[2.449026] (turtle_tf2_py) JobEnded: {'identifier': 'turtle_tf2_py', 'rc': 0}
+[2.450397] (launch_tutorial) CommandEnded: {'returncode': 0}
+[2.454848] (launch_tutorial) JobEnded: {'identifier': 'launch_tutorial', 'rc': 0}
+[2.466784] (turtle_tf2_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.506097] (-) TimerEvent: {}
+[2.543034] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Found tf2: 0.36.16 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[2.548734] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.16 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[2.566193] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[2.567499] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.567651] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.606199] (-) TimerEvent: {}
+[2.692552] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)\n'}
+[2.706309] (-) TimerEvent: {}
+[2.722985] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.806463] (-) TimerEvent: {}
+[2.817540] (turtle_tf2_cpp) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.818987] (turtle_tf2_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.819177] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.819277] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.820457] (turtle_tf2_cpp) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.820547] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.821192] (turtle_tf2_cpp) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.821277] (turtle_tf2_cpp) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[2.822001] (turtle_tf2_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.822729] (turtle_tf2_cpp) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.824010] (turtle_tf2_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.824254] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.824850] (turtle_tf2_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.826367] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Configuring done (2.1s)\n'}
+[2.856587] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.865362] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/eilero/launch_ws/build/turtle_tf2_cpp\n'}
+[2.875339] (turtle_tf2_cpp) CommandEnded: {'returncode': 0}
+[2.875901] (turtle_tf2_cpp) JobProgress: {'identifier': 'turtle_tf2_cpp', 'progress': 'build'}
+[2.876592] (turtle_tf2_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/eilero/launch_ws/build/turtle_tf2_cpp', '--', '-j16', '-l16'], 'cwd': '/home/eilero/launch_ws/build/turtle_tf2_cpp', 'env': OrderedDict({'HOSTNAME': 'advan', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/eilero/install/first_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home/eilero/launch_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/eilero/launch_ws/install:/home/eilero/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/eilero/launch_ws/install/turtle_tf2_py:/home/eilero/launch_ws/install/py_launch_example:/home/eilero/launch_ws/install/launch_tutorial:/home/eilero/install/first_interfaces:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/eilero/launch_ws/build/turtle_tf2_cpp', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages:/home/eilero/launch_ws/install/py_launch_example/lib/python3.12/site-packages:/home/eilero/launch_ws/install/launch_tutorial/lib/python3.12/site-packages:/home/eilero/install/first_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/eilero/install/first_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/eilero/launch_ws/install/turtle_tf2_py:/home/eilero/launch_ws/install/py_launch_example:/home/eilero/launch_ws/install/launch_tutorial:/opt/ros/jazzy'}), 'shell': False}
+[2.906593] (-) TimerEvent: {}
+[2.928919] (turtle_tf2_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/static_turtle_tf2_broadcaster.dir/src/static_turtle_tf2_broadcaster.cpp.o\x1b[0m\n'}
+[2.929167] (turtle_tf2_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o\x1b[0m\n'}
+[2.929319] (turtle_tf2_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_tf2_broadcaster.dir/src/turtle_tf2_broadcaster.cpp.o\x1b[0m\n'}
+[2.929423] (turtle_tf2_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/fixed_frame_tf2_broadcaster.dir/src/fixed_frame_tf2_broadcaster.cpp.o\x1b[0m\n'}
+[2.929522] (turtle_tf2_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtle_tf2_message_filter.dir/src/turtle_tf2_message_filter.cpp.o\x1b[0m\n'}
+[2.929619] (turtle_tf2_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dynamic_frame_tf2_broadcaster.dir/src/dynamic_frame_tf2_broadcaster.cpp.o\x1b[0m\n'}
+[3.006741] (-) TimerEvent: {}
+[3.107234] (-) TimerEvent: {}
+[3.207592] (-) TimerEvent: {}
+[3.307977] (-) TimerEvent: {}
+[3.408367] (-) TimerEvent: {}
+[3.508808] (-) TimerEvent: {}
+[3.609245] (-) TimerEvent: {}
+[3.709705] (-) TimerEvent: {}
+[3.810140] (-) TimerEvent: {}
+[3.910555] (-) TimerEvent: {}
+[4.010959] (-) TimerEvent: {}
+[4.111387] (-) TimerEvent: {}
+[4.211735] (-) TimerEvent: {}
+[4.312144] (-) TimerEvent: {}
+[4.412539] (-) TimerEvent: {}
+[4.512909] (-) TimerEvent: {}
+[4.613205] (-) TimerEvent: {}
+[4.713550] (-) TimerEvent: {}
+[4.813908] (-) TimerEvent: {}
+[4.914257] (-) TimerEvent: {}
+[5.014599] (-) TimerEvent: {}
+[5.114921] (-) TimerEvent: {}
+[5.215246] (-) TimerEvent: {}
+[5.315661] (-) TimerEvent: {}
+[5.416072] (-) TimerEvent: {}
+[5.516468] (-) TimerEvent: {}
+[5.616821] (-) TimerEvent: {}
+[5.717231] (-) TimerEvent: {}
+[5.817580] (-) TimerEvent: {}
+[5.917998] (-) TimerEvent: {}
+[6.018434] (-) TimerEvent: {}
+[6.118851] (-) TimerEvent: {}
+[6.219234] (-) TimerEvent: {}
+[6.319646] (-) TimerEvent: {}
+[6.420054] (-) TimerEvent: {}
+[6.520476] (-) TimerEvent: {}
+[6.620912] (-) TimerEvent: {}
+[6.721302] (-) TimerEvent: {}
+[6.821684] (-) TimerEvent: {}
+[6.922062] (-) TimerEvent: {}
+[6.938141] (turtle_tf2_cpp) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX executable static_turtle_tf2_broadcaster\x1b[0m\n'}
+[7.020891] (turtle_tf2_cpp) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable dynamic_frame_tf2_broadcaster\x1b[0m\n'}
+[7.021201] (turtle_tf2_cpp) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable fixed_frame_tf2_broadcaster\x1b[0m\n'}
+[7.022164] (-) TimerEvent: {}
+[7.122466] (-) TimerEvent: {}
+[7.198377] (turtle_tf2_cpp) StdoutLine: {'line': b'[ 75%] Built target static_turtle_tf2_broadcaster\n'}
+[7.222621] (-) TimerEvent: {}
+[7.264610] (turtle_tf2_cpp) StdoutLine: {'line': b'[ 75%] Built target fixed_frame_tf2_broadcaster\n'}
+[7.271679] (turtle_tf2_cpp) StdoutLine: {'line': b'[ 75%] Built target dynamic_frame_tf2_broadcaster\n'}
+[7.322782] (-) TimerEvent: {}
+[7.423158] (-) TimerEvent: {}
+[7.523622] (-) TimerEvent: {}
+[7.624005] (-) TimerEvent: {}
+[7.724383] (-) TimerEvent: {}
+[7.824741] (-) TimerEvent: {}
+[7.925105] (-) TimerEvent: {}
+[8.025487] (-) TimerEvent: {}
+[8.125846] (-) TimerEvent: {}
+[8.226215] (-) TimerEvent: {}
+[8.326577] (-) TimerEvent: {}
+[8.426943] (-) TimerEvent: {}
+[8.527328] (-) TimerEvent: {}
+[8.627646] (-) TimerEvent: {}
+[8.727964] (-) TimerEvent: {}
+[8.828340] (-) TimerEvent: {}
+[8.928712] (-) TimerEvent: {}
+[8.932505] (turtle_tf2_cpp) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable turtle_tf2_listener\x1b[0m\n'}
+[9.028878] (-) TimerEvent: {}
+[9.129251] (-) TimerEvent: {}
+[9.174911] (turtle_tf2_cpp) StdoutLine: {'line': b'[ 83%] Built target turtle_tf2_listener\n'}
+[9.229397] (-) TimerEvent: {}
+[9.329748] (-) TimerEvent: {}
+[9.430106] (-) TimerEvent: {}
+[9.530472] (-) TimerEvent: {}
+[9.630840] (-) TimerEvent: {}
+[9.731208] (-) TimerEvent: {}
+[9.831558] (-) TimerEvent: {}
+[9.931929] (-) TimerEvent: {}
+[10.032365] (-) TimerEvent: {}
+[10.132734] (-) TimerEvent: {}
+[10.233102] (-) TimerEvent: {}
+[10.267099] (turtle_tf2_cpp) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable turtle_tf2_broadcaster\x1b[0m\n'}
+[10.333261] (-) TimerEvent: {}
+[10.433659] (-) TimerEvent: {}
+[10.534022] (-) TimerEvent: {}
+[10.550041] (turtle_tf2_cpp) StdoutLine: {'line': b'[ 91%] Built target turtle_tf2_broadcaster\n'}
+[10.634180] (-) TimerEvent: {}
+[10.734841] (-) TimerEvent: {}
+[10.835231] (-) TimerEvent: {}
+[10.935708] (-) TimerEvent: {}
+[11.036068] (-) TimerEvent: {}
+[11.136536] (-) TimerEvent: {}
+[11.236912] (-) TimerEvent: {}
+[11.322613] (turtle_tf2_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_tf2_message_filter\x1b[0m\n'}
+[11.337020] (-) TimerEvent: {}
+[11.437345] (-) TimerEvent: {}
+[11.537705] (-) TimerEvent: {}
+[11.611892] (turtle_tf2_cpp) StdoutLine: {'line': b'[100%] Built target turtle_tf2_message_filter\n'}
+[11.623157] (turtle_tf2_cpp) CommandEnded: {'returncode': 0}
+[11.623875] (turtle_tf2_cpp) JobProgress: {'identifier': 'turtle_tf2_cpp', 'progress': 'install'}
+[11.624324] (turtle_tf2_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/eilero/launch_ws/build/turtle_tf2_cpp'], 'cwd': '/home/eilero/launch_ws/build/turtle_tf2_cpp', 'env': OrderedDict({'HOSTNAME': 'advan', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/eilero/install/first_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home/eilero/launch_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/eilero/launch_ws/install:/home/eilero/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/eilero/launch_ws/install/turtle_tf2_py:/home/eilero/launch_ws/install/py_launch_example:/home/eilero/launch_ws/install/launch_tutorial:/home/eilero/install/first_interfaces:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/eilero/launch_ws/build/turtle_tf2_cpp', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages:/home/eilero/launch_ws/install/py_launch_example/lib/python3.12/site-packages:/home/eilero/launch_ws/install/launch_tutorial/lib/python3.12/site-packages:/home/eilero/install/first_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/eilero/install/first_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/eilero/launch_ws/install/turtle_tf2_py:/home/eilero/launch_ws/install/py_launch_example:/home/eilero/launch_ws/install/launch_tutorial:/opt/ros/jazzy'}), 'shell': False}
+[11.630740] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.631024] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/lib/turtle_tf2_cpp/static_turtle_tf2_broadcaster\n'}
+[11.632074] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/eilero/launch_ws/install/turtle_tf2_cpp/lib/turtle_tf2_cpp/static_turtle_tf2_broadcaster" to ""\n'}
+[11.632408] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/lib/turtle_tf2_cpp/turtle_tf2_broadcaster\n'}
+[11.636442] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/eilero/launch_ws/install/turtle_tf2_cpp/lib/turtle_tf2_cpp/turtle_tf2_broadcaster" to ""\n'}
+[11.636631] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/lib/turtle_tf2_cpp/turtle_tf2_listener\n'}
+[11.637774] (-) TimerEvent: {}
+[11.638874] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/eilero/launch_ws/install/turtle_tf2_cpp/lib/turtle_tf2_cpp/turtle_tf2_listener" to ""\n'}
+[11.639069] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/lib/turtle_tf2_cpp/fixed_frame_tf2_broadcaster\n'}
+[11.640021] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/eilero/launch_ws/install/turtle_tf2_cpp/lib/turtle_tf2_cpp/fixed_frame_tf2_broadcaster" to ""\n'}
+[11.640113] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/lib/turtle_tf2_cpp/dynamic_frame_tf2_broadcaster\n'}
+[11.641225] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/eilero/launch_ws/install/turtle_tf2_cpp/lib/turtle_tf2_cpp/dynamic_frame_tf2_broadcaster" to ""\n'}
+[11.641400] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/lib/turtle_tf2_cpp/turtle_tf2_message_filter\n'}
+[11.646761] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/eilero/launch_ws/install/turtle_tf2_cpp/lib/turtle_tf2_cpp/turtle_tf2_message_filter" to ""\n'}
+[11.647226] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/turtle_tf2_cpp/launch\n'}
+[11.647421] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/turtle_tf2_cpp/launch/turtle_tf2_dynamic_frame_demo.launch.py\n'}
+[11.647571] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/turtle_tf2_cpp/launch/turtle_tf2_fixed_frame_demo.launch.py\n'}
+[11.647816] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/turtle_tf2_cpp/launch/turtle_tf2_demo.launch.py\n'}
+[11.647986] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/turtle_tf2_cpp\n'}
+[11.648058] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/turtle_tf2_cpp\n'}
+[11.648114] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/turtle_tf2_cpp/environment/ament_prefix_path.sh\n'}
+[11.648176] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/turtle_tf2_cpp/environment/ament_prefix_path.dsv\n'}
+[11.648277] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/turtle_tf2_cpp/environment/path.sh\n'}
+[11.648332] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/turtle_tf2_cpp/environment/path.dsv\n'}
+[11.648396] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/turtle_tf2_cpp/local_setup.bash\n'}
+[11.648448] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/turtle_tf2_cpp/local_setup.sh\n'}
+[11.648515] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/turtle_tf2_cpp/local_setup.zsh\n'}
+[11.648627] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/turtle_tf2_cpp/local_setup.dsv\n'}
+[11.648747] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/turtle_tf2_cpp/package.dsv\n'}
+[11.648909] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/ament_index/resource_index/packages/turtle_tf2_cpp\n'}
+[11.649061] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/turtle_tf2_cpp/cmake/turtle_tf2_cppConfig.cmake\n'}
+[11.649211] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/turtle_tf2_cpp/cmake/turtle_tf2_cppConfig-version.cmake\n'}
+[11.649320] (turtle_tf2_cpp) StdoutLine: {'line': b'-- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/turtle_tf2_cpp/package.xml\n'}
+[11.651956] (turtle_tf2_cpp) CommandEnded: {'returncode': 0}
+[11.660370] (turtle_tf2_cpp) JobEnded: {'identifier': 'turtle_tf2_cpp', 'rc': 0}
+[11.661393] (-) EventReactorShutdown: {}

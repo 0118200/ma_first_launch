@@ -1,0 +1,36 @@
+[1.395s] Invoking command in '/home/eilero/launch_ws/src/launch_tutorial': PYTHONPATH=/home/eilero/launch_ws/build/launch_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eilero/launch_ws/install/launch_tutorial/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/eilero/launch_ws/build/launch_tutorial/build install --record /home/eilero/launch_ws/build/launch_tutorial/install.log --single-version-externally-managed install_data
+[1.731s] running egg_info
+[1.732s] creating ../../build/launch_tutorial/launch_tutorial.egg-info
+[1.751s] writing ../../build/launch_tutorial/launch_tutorial.egg-info/PKG-INFO
+[1.752s] writing dependency_links to ../../build/launch_tutorial/launch_tutorial.egg-info/dependency_links.txt
+[1.752s] writing requirements to ../../build/launch_tutorial/launch_tutorial.egg-info/requires.txt
+[1.752s] writing top-level names to ../../build/launch_tutorial/launch_tutorial.egg-info/top_level.txt
+[1.752s] writing manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[1.794s] reading manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[1.794s] adding license file 'LICENSE'
+[1.795s] writing manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[1.795s] running build
+[1.795s] running build_py
+[1.796s] creating /home/eilero/launch_ws/build/launch_tutorial/build
+[1.796s] creating /home/eilero/launch_ws/build/launch_tutorial/build/lib
+[1.796s] creating /home/eilero/launch_ws/build/launch_tutorial/build/lib/launch_tutorial
+[1.796s] copying launch_tutorial/__init__.py -> /home/eilero/launch_ws/build/launch_tutorial/build/lib/launch_tutorial
+[1.796s] running install
+[1.806s] running install_lib
+[1.828s] creating /home/eilero/launch_ws/install/launch_tutorial/lib/python3.12/site-packages/launch_tutorial
+[1.828s] copying /home/eilero/launch_ws/build/launch_tutorial/build/lib/launch_tutorial/__init__.py -> /home/eilero/launch_ws/install/launch_tutorial/lib/python3.12/site-packages/launch_tutorial
+[1.829s] byte-compiling /home/eilero/launch_ws/install/launch_tutorial/lib/python3.12/site-packages/launch_tutorial/__init__.py to __init__.cpython-312.pyc
+[1.829s] running install_data
+[1.830s] creating /home/eilero/launch_ws/install/launch_tutorial/share/ament_index
+[1.830s] creating /home/eilero/launch_ws/install/launch_tutorial/share/ament_index/resource_index
+[1.830s] creating /home/eilero/launch_ws/install/launch_tutorial/share/ament_index/resource_index/packages
+[1.830s] copying resource/launch_tutorial -> /home/eilero/launch_ws/install/launch_tutorial/share/ament_index/resource_index/packages
+[1.830s] copying package.xml -> /home/eilero/launch_ws/install/launch_tutorial/share/launch_tutorial
+[1.830s] creating /home/eilero/launch_ws/install/launch_tutorial/share/launch_tutorial/launch
+[1.831s] copying launch/example_substitutions_launch.py -> /home/eilero/launch_ws/install/launch_tutorial/share/launch_tutorial/launch
+[1.831s] copying launch/example_main_launch.py -> /home/eilero/launch_ws/install/launch_tutorial/share/launch_tutorial/launch
+[1.831s] running install_egg_info
+[1.853s] Copying ../../build/launch_tutorial/launch_tutorial.egg-info to /home/eilero/launch_ws/install/launch_tutorial/lib/python3.12/site-packages/launch_tutorial-0.0.0-py3.12.egg-info
+[1.854s] running install_scripts
+[2.011s] writing list of installed files to '/home/eilero/launch_ws/build/launch_tutorial/install.log'
+[2.069s] Invoked command in '/home/eilero/launch_ws/src/launch_tutorial' returned '0': PYTHONPATH=/home/eilero/launch_ws/build/launch_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eilero/launch_ws/install/launch_tutorial/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/eilero/launch_ws/build/launch_tutorial/build install --record /home/eilero/launch_ws/build/launch_tutorial/install.log --single-version-externally-managed install_data

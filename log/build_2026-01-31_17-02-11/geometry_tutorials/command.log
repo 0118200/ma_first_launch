@@ -1,0 +1,4 @@
+Invoking command in '/home/eilero/launch_ws/build/geometry_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/launch_ws/build/geometry_tutorials -- -j16 -l16
+Invoked command in '/home/eilero/launch_ws/build/geometry_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/launch_ws/build/geometry_tutorials -- -j16 -l16
+Invoking command in '/home/eilero/launch_ws/build/geometry_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/eilero/launch_ws/build/geometry_tutorials
+Invoked command in '/home/eilero/launch_ws/build/geometry_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/eilero/launch_ws/build/geometry_tutorials

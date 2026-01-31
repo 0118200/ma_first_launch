@@ -1,0 +1,76 @@
+[0.000000] (-) TimerEvent: {}
+[0.000267] (launch_tutorial) JobQueued: {'identifier': 'launch_tutorial', 'dependencies': OrderedDict()}
+[0.000393] (py_launch_example) JobQueued: {'identifier': 'py_launch_example', 'dependencies': OrderedDict()}
+[0.000433] (launch_tutorial) JobStarted: {'identifier': 'launch_tutorial'}
+[0.017953] (py_launch_example) JobStarted: {'identifier': 'py_launch_example'}
+[0.098873] (-) TimerEvent: {}
+[0.199339] (-) TimerEvent: {}
+[0.299737] (-) TimerEvent: {}
+[0.400120] (-) TimerEvent: {}
+[0.500609] (-) TimerEvent: {}
+[0.601047] (-) TimerEvent: {}
+[0.701484] (-) TimerEvent: {}
+[0.801904] (-) TimerEvent: {}
+[0.902354] (-) TimerEvent: {}
+[1.002755] (-) TimerEvent: {}
+[1.103177] (-) TimerEvent: {}
+[1.203595] (-) TimerEvent: {}
+[1.304006] (-) TimerEvent: {}
+[1.360600] (py_launch_example) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_launch_example', 'build', '--build-base', '/home/eilero/launch_ws/build/py_launch_example/build', 'install', '--record', '/home/eilero/launch_ws/build/py_launch_example/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/eilero/launch_ws/src/py_launch_example', 'env': {'HOSTNAME': 'advan', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/eilero/install/first_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home/eilero', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/eilero/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/eilero/install/first_interfaces:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/eilero/launch_ws/build/py_launch_example', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/eilero/launch_ws/build/py_launch_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eilero/launch_ws/install/py_launch_example/lib/python3.12/site-packages:/home/eilero/install/first_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/eilero/install/first_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.366378] (launch_tutorial) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/launch_tutorial', 'build', '--build-base', '/home/eilero/launch_ws/build/launch_tutorial/build', 'install', '--record', '/home/eilero/launch_ws/build/launch_tutorial/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/eilero/launch_ws/src/launch_tutorial', 'env': {'HOSTNAME': 'advan', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/home/eilero/install/first_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/home/eilero', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/eilero/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/eilero/install/first_interfaces:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/eilero/launch_ws/build/launch_tutorial', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/eilero/launch_ws/build/launch_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eilero/launch_ws/install/launch_tutorial/lib/python3.12/site-packages:/home/eilero/install/first_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/eilero/install/first_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.404146] (-) TimerEvent: {}
+[1.504549] (-) TimerEvent: {}
+[1.604958] (-) TimerEvent: {}
+[1.680815] (py_launch_example) StdoutLine: {'line': b'running egg_info\n'}
+[1.685138] (launch_tutorial) StdoutLine: {'line': b'running egg_info\n'}
+[1.699845] (py_launch_example) StdoutLine: {'line': b'writing ../../build/py_launch_example/py_launch_example.egg-info/PKG-INFO\n'}
+[1.700284] (py_launch_example) StdoutLine: {'line': b'writing dependency_links to ../../build/py_launch_example/py_launch_example.egg-info/dependency_links.txt\n'}
+[1.700639] (py_launch_example) StdoutLine: {'line': b'writing requirements to ../../build/py_launch_example/py_launch_example.egg-info/requires.txt\n'}
+[1.700832] (py_launch_example) StdoutLine: {'line': b'writing top-level names to ../../build/py_launch_example/py_launch_example.egg-info/top_level.txt\n'}
+[1.704511] (launch_tutorial) StdoutLine: {'line': b'writing ../../build/launch_tutorial/launch_tutorial.egg-info/PKG-INFO\n'}
+[1.704904] (launch_tutorial) StdoutLine: {'line': b'writing dependency_links to ../../build/launch_tutorial/launch_tutorial.egg-info/dependency_links.txt\n'}
+[1.705092] (-) TimerEvent: {}
+[1.705272] (launch_tutorial) StdoutLine: {'line': b'writing requirements to ../../build/launch_tutorial/launch_tutorial.egg-info/requires.txt\n'}
+[1.705529] (launch_tutorial) StdoutLine: {'line': b'writing top-level names to ../../build/launch_tutorial/launch_tutorial.egg-info/top_level.txt\n'}
+[1.742244] (py_launch_example) StdoutLine: {'line': b"reading manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'\n"}
+[1.742743] (py_launch_example) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.743423] (py_launch_example) StdoutLine: {'line': b"writing manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'\n"}
+[1.743750] (py_launch_example) StdoutLine: {'line': b'running build\n'}
+[1.743944] (py_launch_example) StdoutLine: {'line': b'running build_py\n'}
+[1.744150] (py_launch_example) StdoutLine: {'line': b'running install\n'}
+[1.747209] (launch_tutorial) StdoutLine: {'line': b"reading manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'\n"}
+[1.747730] (launch_tutorial) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.748684] (launch_tutorial) StdoutLine: {'line': b"writing manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'\n"}
+[1.748999] (launch_tutorial) StdoutLine: {'line': b'running build\n'}
+[1.749190] (launch_tutorial) StdoutLine: {'line': b'running build_py\n'}
+[1.749378] (launch_tutorial) StdoutLine: {'line': b'running install\n'}
+[1.752786] (py_launch_example) StdoutLine: {'line': b'running install_lib\n'}
+[1.757952] (launch_tutorial) StdoutLine: {'line': b'running install_lib\n'}
+[1.773300] (py_launch_example) StdoutLine: {'line': b'running install_data\n'}
+[1.773698] (py_launch_example) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.778523] (launch_tutorial) StdoutLine: {'line': b'running install_data\n'}
+[1.778895] (launch_tutorial) StdoutLine: {'line': b'copying launch/turtlesim_rviz2_launch.py -> /home/eilero/launch_ws/install/launch_tutorial/share/launch_tutorial/launch\n'}
+[1.779236] (launch_tutorial) StdoutLine: {'line': b'copying launch/broadcaster_listener_launch.py -> /home/eilero/launch_ws/install/launch_tutorial/share/launch_tutorial/launch\n'}
+[1.779524] (launch_tutorial) StdoutLine: {'line': b'copying launch/turtlesim_world_2_launch.py -> /home/eilero/launch_ws/install/launch_tutorial/share/launch_tutorial/launch\n'}
+[1.779936] (launch_tutorial) StdoutLine: {'line': b'copying launch/turtlesim_world_3_launch.py -> /home/eilero/launch_ws/install/launch_tutorial/share/launch_tutorial/launch\n'}
+[1.780447] (launch_tutorial) StdoutLine: {'line': b'copying launch/mimic_launch.py -> /home/eilero/launch_ws/install/launch_tutorial/share/launch_tutorial/launch\n'}
+[1.780679] (launch_tutorial) StdoutLine: {'line': b'copying launch/fixed_broadcaster_launch.py -> /home/eilero/launch_ws/install/launch_tutorial/share/launch_tutorial/launch\n'}
+[1.780926] (launch_tutorial) StdoutLine: {'line': b'copying launch/turtlesim_world_1_launch.py -> /home/eilero/launch_ws/install/launch_tutorial/share/launch_tutorial/launch\n'}
+[1.781181] (launch_tutorial) StdoutLine: {'line': b'copying launch/launch_turtlesim_launch.py -> /home/eilero/launch_ws/install/launch_tutorial/share/launch_tutorial/launch\n'}
+[1.781419] (launch_tutorial) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.795632] (py_launch_example) StdoutLine: {'line': b"removing '/home/eilero/launch_ws/install/py_launch_example/lib/python3.12/site-packages/py_launch_example-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[1.796265] (py_launch_example) StdoutLine: {'line': b'Copying ../../build/py_launch_example/py_launch_example.egg-info to /home/eilero/launch_ws/install/py_launch_example/lib/python3.12/site-packages/py_launch_example-0.0.0-py3.12.egg-info\n'}
+[1.797555] (py_launch_example) StdoutLine: {'line': b'running install_scripts\n'}
+[1.802802] (launch_tutorial) StdoutLine: {'line': b"removing '/home/eilero/launch_ws/install/launch_tutorial/lib/python3.12/site-packages/launch_tutorial-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[1.803313] (launch_tutorial) StdoutLine: {'line': b'Copying ../../build/launch_tutorial/launch_tutorial.egg-info to /home/eilero/launch_ws/install/launch_tutorial/lib/python3.12/site-packages/launch_tutorial-0.0.0-py3.12.egg-info\n'}
+[1.805044] (launch_tutorial) StdoutLine: {'line': b'running install_scripts\n'}
+[1.805329] (-) TimerEvent: {}
+[1.905667] (-) TimerEvent: {}
+[1.949528] (py_launch_example) StdoutLine: {'line': b"writing list of installed files to '/home/eilero/launch_ws/build/py_launch_example/install.log'\n"}
+[1.956259] (launch_tutorial) StdoutLine: {'line': b"writing list of installed files to '/home/eilero/launch_ws/build/launch_tutorial/install.log'\n"}
+[1.988724] (py_launch_example) CommandEnded: {'returncode': 0}
+[2.005887] (-) TimerEvent: {}
+[2.007369] (py_launch_example) JobEnded: {'identifier': 'py_launch_example', 'rc': 0}
+[2.009738] (launch_tutorial) CommandEnded: {'returncode': 0}
+[2.019951] (launch_tutorial) JobEnded: {'identifier': 'launch_tutorial', 'rc': 0}
+[2.021563] (-) EventReactorShutdown: {}

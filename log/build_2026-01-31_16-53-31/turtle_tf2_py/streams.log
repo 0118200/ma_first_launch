@@ -1,0 +1,33 @@
+[1.668s] Invoking command in '/home/eilero/launch_ws/src/turtle_tf2_py': PYTHONPATH=/home/eilero/launch_ws/build/turtle_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_tf2_py build --build-base /home/eilero/launch_ws/build/turtle_tf2_py/build install --record /home/eilero/launch_ws/build/turtle_tf2_py/install.log --single-version-externally-managed install_data
+[2.025s] running egg_info
+[2.026s] creating ../../build/turtle_tf2_py/turtle_tf2_py.egg-info
+[2.045s] writing ../../build/turtle_tf2_py/turtle_tf2_py.egg-info/PKG-INFO
+[2.046s] writing dependency_links to ../../build/turtle_tf2_py/turtle_tf2_py.egg-info/dependency_links.txt
+[2.046s] writing requirements to ../../build/turtle_tf2_py/turtle_tf2_py.egg-info/requires.txt
+[2.046s] writing top-level names to ../../build/turtle_tf2_py/turtle_tf2_py.egg-info/top_level.txt
+[2.046s] writing manifest file '../../build/turtle_tf2_py/turtle_tf2_py.egg-info/SOURCES.txt'
+[2.087s] reading manifest file '../../build/turtle_tf2_py/turtle_tf2_py.egg-info/SOURCES.txt'
+[2.088s] adding license file 'LICENSE'
+[2.088s] writing manifest file '../../build/turtle_tf2_py/turtle_tf2_py.egg-info/SOURCES.txt'
+[2.088s] running build
+[2.089s] running build_py
+[2.089s] creating /home/eilero/launch_ws/build/turtle_tf2_py/build
+[2.089s] creating /home/eilero/launch_ws/build/turtle_tf2_py/build/lib
+[2.089s] creating /home/eilero/launch_ws/build/turtle_tf2_py/build/lib/turtle_tf2_py
+[2.090s] copying turtle_tf2_py/__init__.py -> /home/eilero/launch_ws/build/turtle_tf2_py/build/lib/turtle_tf2_py
+[2.090s] running install
+[2.099s] running install_lib
+[2.117s] creating /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py
+[2.118s] copying /home/eilero/launch_ws/build/turtle_tf2_py/build/lib/turtle_tf2_py/__init__.py -> /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py
+[2.118s] byte-compiling /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py/__init__.py to __init__.cpython-312.pyc
+[2.119s] running install_data
+[2.119s] creating /home/eilero/launch_ws/install/turtle_tf2_py/share/ament_index
+[2.119s] creating /home/eilero/launch_ws/install/turtle_tf2_py/share/ament_index/resource_index
+[2.119s] creating /home/eilero/launch_ws/install/turtle_tf2_py/share/ament_index/resource_index/packages
+[2.119s] copying resource/turtle_tf2_py -> /home/eilero/launch_ws/install/turtle_tf2_py/share/ament_index/resource_index/packages
+[2.119s] copying package.xml -> /home/eilero/launch_ws/install/turtle_tf2_py/share/turtle_tf2_py
+[2.119s] running install_egg_info
+[2.137s] Copying ../../build/turtle_tf2_py/turtle_tf2_py.egg-info to /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py-0.0.0-py3.12.egg-info
+[2.138s] running install_scripts
+[2.230s] writing list of installed files to '/home/eilero/launch_ws/build/turtle_tf2_py/install.log'
+[2.288s] Invoked command in '/home/eilero/launch_ws/src/turtle_tf2_py' returned '0': PYTHONPATH=/home/eilero/launch_ws/build/turtle_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_tf2_py build --build-base /home/eilero/launch_ws/build/turtle_tf2_py/build install --record /home/eilero/launch_ws/build/turtle_tf2_py/install.log --single-version-externally-managed install_data

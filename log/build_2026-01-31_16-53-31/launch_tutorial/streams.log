@@ -1,0 +1,20 @@
+[1.715s] Invoking command in '/home/eilero/launch_ws/src/launch_tutorial': PYTHONPATH=/home/eilero/launch_ws/build/launch_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eilero/launch_ws/install/launch_tutorial/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/eilero/launch_ws/build/launch_tutorial/build install --record /home/eilero/launch_ws/build/launch_tutorial/install.log --single-version-externally-managed install_data
+[2.053s] running egg_info
+[2.073s] writing ../../build/launch_tutorial/launch_tutorial.egg-info/PKG-INFO
+[2.074s] writing dependency_links to ../../build/launch_tutorial/launch_tutorial.egg-info/dependency_links.txt
+[2.074s] writing requirements to ../../build/launch_tutorial/launch_tutorial.egg-info/requires.txt
+[2.074s] writing top-level names to ../../build/launch_tutorial/launch_tutorial.egg-info/top_level.txt
+[2.116s] reading manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[2.116s] adding license file 'LICENSE'
+[2.117s] writing manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'
+[2.118s] running build
+[2.118s] running build_py
+[2.118s] running install
+[2.127s] running install_lib
+[2.145s] running install_data
+[2.146s] running install_egg_info
+[2.163s] removing '/home/eilero/launch_ws/install/launch_tutorial/lib/python3.12/site-packages/launch_tutorial-0.0.0-py3.12.egg-info' (and everything under it)
+[2.164s] Copying ../../build/launch_tutorial/launch_tutorial.egg-info to /home/eilero/launch_ws/install/launch_tutorial/lib/python3.12/site-packages/launch_tutorial-0.0.0-py3.12.egg-info
+[2.165s] running install_scripts
+[2.255s] writing list of installed files to '/home/eilero/launch_ws/build/launch_tutorial/install.log'
+[2.323s] Invoked command in '/home/eilero/launch_ws/src/launch_tutorial' returned '0': PYTHONPATH=/home/eilero/launch_ws/build/launch_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eilero/launch_ws/install/launch_tutorial/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_tutorial build --build-base /home/eilero/launch_ws/build/launch_tutorial/build install --record /home/eilero/launch_ws/build/launch_tutorial/install.log --single-version-externally-managed install_data

@@ -1,0 +1,104 @@
+[0.690s] Invoking command in '/home/eilero/launch_ws/build/turtle_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eilero/launch_ws/install/turtle_tf2_py:/home/eilero/launch_ws/install/py_launch_example:/home/eilero/launch_ws/install/launch_tutorial:/opt/ros/jazzy /usr/bin/cmake /home/eilero/launch_ws/geometry_tutorials/turtle_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/eilero/launch_ws/install/turtle_tf2_cpp
+[0.862s] -- The C compiler identification is GNU 13.3.0
+[1.020s] -- The CXX compiler identification is GNU 13.3.0
+[1.056s] -- Detecting C compiler ABI info
+[1.240s] -- Detecting C compiler ABI info - done
+[1.254s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.255s] -- Detecting C compile features
+[1.255s] -- Detecting C compile features - done
+[1.274s] -- Detecting CXX compiler ABI info
+[1.470s] -- Detecting CXX compiler ABI info - done
+[1.486s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.486s] -- Detecting CXX compile features
+[1.487s] -- Detecting CXX compile features - done
+[1.494s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.710s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.922s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.020s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.048s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.084s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.122s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.194s] -- Found message_filters: 4.11.9 (/opt/ros/jazzy/share/message_filters/cmake)
+[2.275s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.279s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.391s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.408s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.431s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.507s] -- Found tf2: 0.36.16 (/opt/ros/jazzy/share/tf2/cmake)
+[2.513s] -- Found tf2_geometry_msgs: 0.36.16 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[2.530s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[2.531s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.531s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.657s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[2.687s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.782s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.783s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.783s] -- Configured cppcheck include dirs: 
+[2.783s] -- Configured cppcheck exclude dirs and/or files: 
+[2.784s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.784s] -- Configured cpplint exclude dirs and/or files: 
+[2.785s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.785s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.786s] -- Added test 'lint_cmake' to check CMake code style
+[2.787s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.788s] -- Added test 'uncrustify' to check C / C++ code style
+[2.788s] -- Configured uncrustify additional arguments: 
+[2.789s] -- Added test 'xmllint' to check XML markup files
+[2.790s] -- Configuring done (2.1s)
+[2.821s] -- Generating done (0.0s)
+[2.829s] -- Build files have been written to: /home/eilero/launch_ws/build/turtle_tf2_cpp
+[2.839s] Invoked command in '/home/eilero/launch_ws/build/turtle_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eilero/launch_ws/install/turtle_tf2_py:/home/eilero/launch_ws/install/py_launch_example:/home/eilero/launch_ws/install/launch_tutorial:/opt/ros/jazzy /usr/bin/cmake /home/eilero/launch_ws/geometry_tutorials/turtle_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/eilero/launch_ws/install/turtle_tf2_cpp
+[2.840s] Invoking command in '/home/eilero/launch_ws/build/turtle_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eilero/launch_ws/install/turtle_tf2_py:/home/eilero/launch_ws/install/py_launch_example:/home/eilero/launch_ws/install/launch_tutorial:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/launch_ws/build/turtle_tf2_cpp -- -j16 -l16
+[2.893s] [ 50%] [32mBuilding CXX object CMakeFiles/static_turtle_tf2_broadcaster.dir/src/static_turtle_tf2_broadcaster.cpp.o[0m
+[2.893s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_tf2_listener.dir/src/turtle_tf2_listener.cpp.o[0m
+[2.893s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_tf2_broadcaster.dir/src/turtle_tf2_broadcaster.cpp.o[0m
+[2.893s] [ 50%] [32mBuilding CXX object CMakeFiles/fixed_frame_tf2_broadcaster.dir/src/fixed_frame_tf2_broadcaster.cpp.o[0m
+[2.893s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_tf2_message_filter.dir/src/turtle_tf2_message_filter.cpp.o[0m
+[2.893s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamic_frame_tf2_broadcaster.dir/src/dynamic_frame_tf2_broadcaster.cpp.o[0m
+[6.902s] [ 58%] [32m[1mLinking CXX executable static_turtle_tf2_broadcaster[0m
+[6.985s] [ 75%] [32m[1mLinking CXX executable dynamic_frame_tf2_broadcaster[0m
+[6.985s] [ 75%] [32m[1mLinking CXX executable fixed_frame_tf2_broadcaster[0m
+[7.162s] [ 75%] Built target static_turtle_tf2_broadcaster
+[7.229s] [ 75%] Built target fixed_frame_tf2_broadcaster
+[7.236s] [ 75%] Built target dynamic_frame_tf2_broadcaster
+[8.897s] [ 83%] [32m[1mLinking CXX executable turtle_tf2_listener[0m
+[9.139s] [ 83%] Built target turtle_tf2_listener
+[10.231s] [ 91%] [32m[1mLinking CXX executable turtle_tf2_broadcaster[0m
+[10.514s] [ 91%] Built target turtle_tf2_broadcaster
+[11.287s] [100%] [32m[1mLinking CXX executable turtle_tf2_message_filter[0m
+[11.576s] [100%] Built target turtle_tf2_message_filter
+[11.587s] Invoked command in '/home/eilero/launch_ws/build/turtle_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eilero/launch_ws/install/turtle_tf2_py:/home/eilero/launch_ws/install/py_launch_example:/home/eilero/launch_ws/install/launch_tutorial:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/launch_ws/build/turtle_tf2_cpp -- -j16 -l16
+[11.588s] Invoking command in '/home/eilero/launch_ws/build/turtle_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eilero/launch_ws/install/turtle_tf2_py:/home/eilero/launch_ws/install/py_launch_example:/home/eilero/launch_ws/install/launch_tutorial:/opt/ros/jazzy /usr/bin/cmake --install /home/eilero/launch_ws/build/turtle_tf2_cpp
+[11.595s] -- Install configuration: ""
+[11.595s] -- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/lib/turtle_tf2_cpp/static_turtle_tf2_broadcaster
+[11.596s] -- Set non-toolchain portion of runtime path of "/home/eilero/launch_ws/install/turtle_tf2_cpp/lib/turtle_tf2_cpp/static_turtle_tf2_broadcaster" to ""
+[11.596s] -- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/lib/turtle_tf2_cpp/turtle_tf2_broadcaster
+[11.600s] -- Set non-toolchain portion of runtime path of "/home/eilero/launch_ws/install/turtle_tf2_cpp/lib/turtle_tf2_cpp/turtle_tf2_broadcaster" to ""
+[11.601s] -- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/lib/turtle_tf2_cpp/turtle_tf2_listener
+[11.603s] -- Set non-toolchain portion of runtime path of "/home/eilero/launch_ws/install/turtle_tf2_cpp/lib/turtle_tf2_cpp/turtle_tf2_listener" to ""
+[11.603s] -- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/lib/turtle_tf2_cpp/fixed_frame_tf2_broadcaster
+[11.604s] -- Set non-toolchain portion of runtime path of "/home/eilero/launch_ws/install/turtle_tf2_cpp/lib/turtle_tf2_cpp/fixed_frame_tf2_broadcaster" to ""
+[11.604s] -- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/lib/turtle_tf2_cpp/dynamic_frame_tf2_broadcaster
+[11.605s] -- Set non-toolchain portion of runtime path of "/home/eilero/launch_ws/install/turtle_tf2_cpp/lib/turtle_tf2_cpp/dynamic_frame_tf2_broadcaster" to ""
+[11.605s] -- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/lib/turtle_tf2_cpp/turtle_tf2_message_filter
+[11.611s] -- Set non-toolchain portion of runtime path of "/home/eilero/launch_ws/install/turtle_tf2_cpp/lib/turtle_tf2_cpp/turtle_tf2_message_filter" to ""
+[11.611s] -- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/turtle_tf2_cpp/launch
+[11.611s] -- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/turtle_tf2_cpp/launch/turtle_tf2_dynamic_frame_demo.launch.py
+[11.612s] -- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/turtle_tf2_cpp/launch/turtle_tf2_fixed_frame_demo.launch.py
+[11.612s] -- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/turtle_tf2_cpp/launch/turtle_tf2_demo.launch.py
+[11.612s] -- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/turtle_tf2_cpp
+[11.612s] -- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/turtle_tf2_cpp
+[11.612s] -- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/turtle_tf2_cpp/environment/ament_prefix_path.sh
+[11.612s] -- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/turtle_tf2_cpp/environment/ament_prefix_path.dsv
+[11.612s] -- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/turtle_tf2_cpp/environment/path.sh
+[11.612s] -- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/turtle_tf2_cpp/environment/path.dsv
+[11.612s] -- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/turtle_tf2_cpp/local_setup.bash
+[11.612s] -- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/turtle_tf2_cpp/local_setup.sh
+[11.612s] -- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/turtle_tf2_cpp/local_setup.zsh
+[11.612s] -- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/turtle_tf2_cpp/local_setup.dsv
+[11.613s] -- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/turtle_tf2_cpp/package.dsv
+[11.613s] -- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/ament_index/resource_index/packages/turtle_tf2_cpp
+[11.613s] -- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/turtle_tf2_cpp/cmake/turtle_tf2_cppConfig.cmake
+[11.613s] -- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/turtle_tf2_cpp/cmake/turtle_tf2_cppConfig-version.cmake
+[11.613s] -- Installing: /home/eilero/launch_ws/install/turtle_tf2_cpp/share/turtle_tf2_cpp/package.xml
+[11.616s] Invoked command in '/home/eilero/launch_ws/build/turtle_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eilero/launch_ws/install/turtle_tf2_py:/home/eilero/launch_ws/install/py_launch_example:/home/eilero/launch_ws/install/launch_tutorial:/opt/ros/jazzy /usr/bin/cmake --install /home/eilero/launch_ws/build/turtle_tf2_cpp

@@ -1,0 +1,55 @@
+[1.835s] Invoking command in '/home/eilero/launch_ws/geometry_tutorials/turtle_tf2_py': PYTHONPATH=/home/eilero/launch_ws/build/turtle_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_tf2_py build --build-base /home/eilero/launch_ws/build/turtle_tf2_py/build install --record /home/eilero/launch_ws/build/turtle_tf2_py/install.log --single-version-externally-managed install_data
+[2.172s] running egg_info
+[2.184s] writing ../../build/turtle_tf2_py/turtle_tf2_py.egg-info/PKG-INFO
+[2.184s] writing dependency_links to ../../build/turtle_tf2_py/turtle_tf2_py.egg-info/dependency_links.txt
+[2.184s] writing entry points to ../../build/turtle_tf2_py/turtle_tf2_py.egg-info/entry_points.txt
+[2.184s] writing requirements to ../../build/turtle_tf2_py/turtle_tf2_py.egg-info/requires.txt
+[2.184s] writing top-level names to ../../build/turtle_tf2_py/turtle_tf2_py.egg-info/top_level.txt
+[2.207s] reading manifest file '../../build/turtle_tf2_py/turtle_tf2_py.egg-info/SOURCES.txt'
+[2.207s] writing manifest file '../../build/turtle_tf2_py/turtle_tf2_py.egg-info/SOURCES.txt'
+[2.208s] running build
+[2.208s] running build_py
+[2.208s] copying turtle_tf2_py/turtle_tf2_broadcaster.py -> /home/eilero/launch_ws/build/turtle_tf2_py/build/lib/turtle_tf2_py
+[2.208s] copying turtle_tf2_py/turtle_tf2_message_broadcaster.py -> /home/eilero/launch_ws/build/turtle_tf2_py/build/lib/turtle_tf2_py
+[2.208s] copying turtle_tf2_py/fixed_frame_tf2_broadcaster.py -> /home/eilero/launch_ws/build/turtle_tf2_py/build/lib/turtle_tf2_py
+[2.208s] copying turtle_tf2_py/__init__.py -> /home/eilero/launch_ws/build/turtle_tf2_py/build/lib/turtle_tf2_py
+[2.208s] copying turtle_tf2_py/turtle_tf2_listener.py -> /home/eilero/launch_ws/build/turtle_tf2_py/build/lib/turtle_tf2_py
+[2.209s] copying turtle_tf2_py/dynamic_frame_tf2_broadcaster.py -> /home/eilero/launch_ws/build/turtle_tf2_py/build/lib/turtle_tf2_py
+[2.209s] copying turtle_tf2_py/static_turtle_tf2_broadcaster.py -> /home/eilero/launch_ws/build/turtle_tf2_py/build/lib/turtle_tf2_py
+[2.209s] running install
+[2.214s] running install_lib
+[2.225s] copying /home/eilero/launch_ws/build/turtle_tf2_py/build/lib/turtle_tf2_py/turtle_tf2_broadcaster.py -> /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py
+[2.226s] copying /home/eilero/launch_ws/build/turtle_tf2_py/build/lib/turtle_tf2_py/turtle_tf2_message_broadcaster.py -> /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py
+[2.226s] copying /home/eilero/launch_ws/build/turtle_tf2_py/build/lib/turtle_tf2_py/fixed_frame_tf2_broadcaster.py -> /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py
+[2.226s] copying /home/eilero/launch_ws/build/turtle_tf2_py/build/lib/turtle_tf2_py/__init__.py -> /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py
+[2.226s] copying /home/eilero/launch_ws/build/turtle_tf2_py/build/lib/turtle_tf2_py/turtle_tf2_listener.py -> /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py
+[2.226s] copying /home/eilero/launch_ws/build/turtle_tf2_py/build/lib/turtle_tf2_py/dynamic_frame_tf2_broadcaster.py -> /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py
+[2.226s] copying /home/eilero/launch_ws/build/turtle_tf2_py/build/lib/turtle_tf2_py/static_turtle_tf2_broadcaster.py -> /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py
+[2.227s] byte-compiling /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py/turtle_tf2_broadcaster.py to turtle_tf2_broadcaster.cpython-312.pyc
+[2.228s] byte-compiling /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py/turtle_tf2_message_broadcaster.py to turtle_tf2_message_broadcaster.cpython-312.pyc
+[2.228s] byte-compiling /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py/fixed_frame_tf2_broadcaster.py to fixed_frame_tf2_broadcaster.cpython-312.pyc
+[2.229s] byte-compiling /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py/__init__.py to __init__.cpython-312.pyc
+[2.229s] byte-compiling /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py/turtle_tf2_listener.py to turtle_tf2_listener.cpython-312.pyc
+[2.230s] byte-compiling /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py/dynamic_frame_tf2_broadcaster.py to dynamic_frame_tf2_broadcaster.cpython-312.pyc
+[2.230s] byte-compiling /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py/static_turtle_tf2_broadcaster.py to static_turtle_tf2_broadcaster.cpython-312.pyc
+[2.231s] running install_data
+[2.231s] copying resource/turtle_tf2_py -> /home/eilero/launch_ws/install/turtle_tf2_py/share/ament_index/resource_index/packages
+[2.231s] copying package.xml -> /home/eilero/launch_ws/install/turtle_tf2_py/share/turtle_tf2_py
+[2.231s] creating /home/eilero/launch_ws/install/turtle_tf2_py/share/turtle_tf2_py/launch
+[2.231s] copying launch/turtle_tf2_sensor_message.launch.py -> /home/eilero/launch_ws/install/turtle_tf2_py/share/turtle_tf2_py/launch
+[2.231s] copying launch/turtle_tf2_dynamic_frame_demo.launch.py -> /home/eilero/launch_ws/install/turtle_tf2_py/share/turtle_tf2_py/launch
+[2.231s] copying launch/turtle_tf2_fixed_frame_demo.launch.py -> /home/eilero/launch_ws/install/turtle_tf2_py/share/turtle_tf2_py/launch
+[2.232s] copying launch/turtle_tf2_demo.launch.py -> /home/eilero/launch_ws/install/turtle_tf2_py/share/turtle_tf2_py/launch
+[2.232s] creating /home/eilero/launch_ws/install/turtle_tf2_py/share/turtle_tf2_py/rviz
+[2.232s] copying rviz/turtle_rviz.rviz -> /home/eilero/launch_ws/install/turtle_tf2_py/share/turtle_tf2_py/rviz
+[2.232s] running install_egg_info
+[2.245s] Copying ../../build/turtle_tf2_py/turtle_tf2_py.egg-info to /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py-0.3.6-py3.12.egg-info
+[2.246s] running install_scripts
+[2.336s] Installing dynamic_frame_tf2_broadcaster script to /home/eilero/launch_ws/install/turtle_tf2_py/lib/turtle_tf2_py
+[2.336s] Installing fixed_frame_tf2_broadcaster script to /home/eilero/launch_ws/install/turtle_tf2_py/lib/turtle_tf2_py
+[2.337s] Installing static_turtle_tf2_broadcaster script to /home/eilero/launch_ws/install/turtle_tf2_py/lib/turtle_tf2_py
+[2.337s] Installing turtle_tf2_broadcaster script to /home/eilero/launch_ws/install/turtle_tf2_py/lib/turtle_tf2_py
+[2.337s] Installing turtle_tf2_listener script to /home/eilero/launch_ws/install/turtle_tf2_py/lib/turtle_tf2_py
+[2.337s] Installing turtle_tf2_message_broadcaster script to /home/eilero/launch_ws/install/turtle_tf2_py/lib/turtle_tf2_py
+[2.337s] writing list of installed files to '/home/eilero/launch_ws/build/turtle_tf2_py/install.log'
+[2.400s] Invoked command in '/home/eilero/launch_ws/geometry_tutorials/turtle_tf2_py' returned '0': PYTHONPATH=/home/eilero/launch_ws/build/turtle_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_tf2_py build --build-base /home/eilero/launch_ws/build/turtle_tf2_py/build install --record /home/eilero/launch_ws/build/turtle_tf2_py/install.log --single-version-externally-managed install_data

@@ -1,0 +1,20 @@
+[1.426s] Invoking command in '/home/eilero/launch_ws/src/py_launch_example': PYTHONPATH=/home/eilero/launch_ws/build/py_launch_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eilero/launch_ws/install/py_launch_example/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_launch_example build --build-base /home/eilero/launch_ws/build/py_launch_example/build install --record /home/eilero/launch_ws/build/py_launch_example/install.log --single-version-externally-managed install_data
+[1.660s] running egg_info
+[1.669s] writing ../../build/py_launch_example/py_launch_example.egg-info/PKG-INFO
+[1.669s] writing dependency_links to ../../build/py_launch_example/py_launch_example.egg-info/dependency_links.txt
+[1.669s] writing requirements to ../../build/py_launch_example/py_launch_example.egg-info/requires.txt
+[1.669s] writing top-level names to ../../build/py_launch_example/py_launch_example.egg-info/top_level.txt
+[1.690s] reading manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[1.690s] adding license file 'LICENSE'
+[1.690s] writing manifest file '../../build/py_launch_example/py_launch_example.egg-info/SOURCES.txt'
+[1.691s] running build
+[1.691s] running build_py
+[1.691s] running install
+[1.695s] running install_lib
+[1.706s] running install_data
+[1.706s] running install_egg_info
+[1.717s] removing '/home/eilero/launch_ws/install/py_launch_example/lib/python3.12/site-packages/py_launch_example-0.0.0-py3.12.egg-info' (and everything under it)
+[1.718s] Copying ../../build/py_launch_example/py_launch_example.egg-info to /home/eilero/launch_ws/install/py_launch_example/lib/python3.12/site-packages/py_launch_example-0.0.0-py3.12.egg-info
+[1.718s] running install_scripts
+[1.797s] writing list of installed files to '/home/eilero/launch_ws/build/py_launch_example/install.log'
+[1.827s] Invoked command in '/home/eilero/launch_ws/src/py_launch_example' returned '0': PYTHONPATH=/home/eilero/launch_ws/build/py_launch_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eilero/launch_ws/install/py_launch_example/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_launch_example build --build-base /home/eilero/launch_ws/build/py_launch_example/build install --record /home/eilero/launch_ws/build/py_launch_example/install.log --single-version-externally-managed install_data

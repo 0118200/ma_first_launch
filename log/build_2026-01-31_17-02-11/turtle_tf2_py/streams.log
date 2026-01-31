@@ -1,0 +1,26 @@
+[0.938s] Invoking command in '/home/eilero/launch_ws/geometry_tutorials/turtle_tf2_py': PYTHONPATH=/home/eilero/launch_ws/build/turtle_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_tf2_py build --build-base /home/eilero/launch_ws/build/turtle_tf2_py/build install --record /home/eilero/launch_ws/build/turtle_tf2_py/install.log --single-version-externally-managed install_data
+[1.120s] running egg_info
+[1.131s] writing ../../build/turtle_tf2_py/turtle_tf2_py.egg-info/PKG-INFO
+[1.131s] writing dependency_links to ../../build/turtle_tf2_py/turtle_tf2_py.egg-info/dependency_links.txt
+[1.132s] writing entry points to ../../build/turtle_tf2_py/turtle_tf2_py.egg-info/entry_points.txt
+[1.132s] writing requirements to ../../build/turtle_tf2_py/turtle_tf2_py.egg-info/requires.txt
+[1.132s] writing top-level names to ../../build/turtle_tf2_py/turtle_tf2_py.egg-info/top_level.txt
+[1.155s] reading manifest file '../../build/turtle_tf2_py/turtle_tf2_py.egg-info/SOURCES.txt'
+[1.156s] writing manifest file '../../build/turtle_tf2_py/turtle_tf2_py.egg-info/SOURCES.txt'
+[1.156s] running build
+[1.156s] running build_py
+[1.156s] running install
+[1.161s] running install_lib
+[1.174s] running install_data
+[1.174s] running install_egg_info
+[1.186s] removing '/home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py-0.3.6-py3.12.egg-info' (and everything under it)
+[1.187s] Copying ../../build/turtle_tf2_py/turtle_tf2_py.egg-info to /home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages/turtle_tf2_py-0.3.6-py3.12.egg-info
+[1.188s] running install_scripts
+[1.277s] Installing dynamic_frame_tf2_broadcaster script to /home/eilero/launch_ws/install/turtle_tf2_py/lib/turtle_tf2_py
+[1.277s] Installing fixed_frame_tf2_broadcaster script to /home/eilero/launch_ws/install/turtle_tf2_py/lib/turtle_tf2_py
+[1.277s] Installing static_turtle_tf2_broadcaster script to /home/eilero/launch_ws/install/turtle_tf2_py/lib/turtle_tf2_py
+[1.278s] Installing turtle_tf2_broadcaster script to /home/eilero/launch_ws/install/turtle_tf2_py/lib/turtle_tf2_py
+[1.278s] Installing turtle_tf2_listener script to /home/eilero/launch_ws/install/turtle_tf2_py/lib/turtle_tf2_py
+[1.278s] Installing turtle_tf2_message_broadcaster script to /home/eilero/launch_ws/install/turtle_tf2_py/lib/turtle_tf2_py
+[1.278s] writing list of installed files to '/home/eilero/launch_ws/build/turtle_tf2_py/install.log'
+[1.317s] Invoked command in '/home/eilero/launch_ws/geometry_tutorials/turtle_tf2_py' returned '0': PYTHONPATH=/home/eilero/launch_ws/build/turtle_tf2_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eilero/launch_ws/install/turtle_tf2_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_tf2_py build --build-base /home/eilero/launch_ws/build/turtle_tf2_py/build install --record /home/eilero/launch_ws/build/turtle_tf2_py/install.log --single-version-externally-managed install_data

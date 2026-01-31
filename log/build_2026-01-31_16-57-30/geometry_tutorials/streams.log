@@ -1,0 +1,27 @@
+[0.056s] Invoking command in '/home/eilero/launch_ws/build/geometry_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eilero/launch_ws/install/turtle_tf2_py:/home/eilero/launch_ws/install/py_launch_example:/home/eilero/launch_ws/install/launch_tutorial:/opt/ros/jazzy /usr/bin/cmake /home/eilero/launch_ws/geometry_tutorials/geometry_tutorials -DCMAKE_INSTALL_PREFIX=/home/eilero/launch_ws/install/geometry_tutorials
+[0.729s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.729s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.757s] -- Configuring done (0.7s)
+[0.766s] -- Generating done (0.0s)
+[0.769s] -- Build files have been written to: /home/eilero/launch_ws/build/geometry_tutorials
+[1.063s] Invoked command in '/home/eilero/launch_ws/build/geometry_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eilero/launch_ws/install/turtle_tf2_py:/home/eilero/launch_ws/install/py_launch_example:/home/eilero/launch_ws/install/launch_tutorial:/opt/ros/jazzy /usr/bin/cmake /home/eilero/launch_ws/geometry_tutorials/geometry_tutorials -DCMAKE_INSTALL_PREFIX=/home/eilero/launch_ws/install/geometry_tutorials
+[1.065s] Invoking command in '/home/eilero/launch_ws/build/geometry_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eilero/launch_ws/install/turtle_tf2_py:/home/eilero/launch_ws/install/py_launch_example:/home/eilero/launch_ws/install/launch_tutorial:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/launch_ws/build/geometry_tutorials -- -j16 -l16
+[1.148s] Invoked command in '/home/eilero/launch_ws/build/geometry_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eilero/launch_ws/install/turtle_tf2_py:/home/eilero/launch_ws/install/py_launch_example:/home/eilero/launch_ws/install/launch_tutorial:/opt/ros/jazzy /usr/bin/cmake --build /home/eilero/launch_ws/build/geometry_tutorials -- -j16 -l16
+[1.166s] Invoking command in '/home/eilero/launch_ws/build/geometry_tutorials': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eilero/launch_ws/install/turtle_tf2_py:/home/eilero/launch_ws/install/py_launch_example:/home/eilero/launch_ws/install/launch_tutorial:/opt/ros/jazzy /usr/bin/cmake --install /home/eilero/launch_ws/build/geometry_tutorials
+[1.182s] -- Install configuration: ""
+[1.183s] -- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/ament_index/resource_index/package_run_dependencies/geometry_tutorials
+[1.183s] -- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/ament_index/resource_index/parent_prefix_path/geometry_tutorials
+[1.183s] -- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/environment/ament_prefix_path.sh
+[1.184s] -- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/environment/ament_prefix_path.dsv
+[1.184s] -- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/environment/path.sh
+[1.184s] -- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/environment/path.dsv
+[1.185s] -- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/local_setup.bash
+[1.185s] -- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/local_setup.sh
+[1.185s] -- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/local_setup.zsh
+[1.185s] -- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/local_setup.dsv
+[1.186s] -- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/package.dsv
+[1.186s] -- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/ament_index/resource_index/packages/geometry_tutorials
+[1.186s] -- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/cmake/geometry_tutorialsConfig.cmake
+[1.187s] -- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/cmake/geometry_tutorialsConfig-version.cmake
+[1.187s] -- Installing: /home/eilero/launch_ws/install/geometry_tutorials/share/geometry_tutorials/package.xml
+[1.192s] Invoked command in '/home/eilero/launch_ws/build/geometry_tutorials' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eilero/launch_ws/install/turtle_tf2_py:/home/eilero/launch_ws/install/py_launch_example:/home/eilero/launch_ws/install/launch_tutorial:/opt/ros/jazzy /usr/bin/cmake --install /home/eilero/launch_ws/build/geometry_tutorials
